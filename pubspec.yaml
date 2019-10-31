@@ -1,0 +1,25 @@
+name: dartconsole
+description: A sample command-line application.
+# version: 1.0.0
+# homepage: https://www.example.com
+# author: zhoubing <zhoubing19820720@hotmail.com>
+
+environment:
+  sdk: '>=2.4.0 <3.0.0'
+
+dependencies:
+  thrift:
+    path: lib/thrift
+  auth:
+    path: lib/auth
+#  account:
+#    path: lib/account
+#  shared:
+#    path: lib/shared
+#  xkcm:
+#    path: lib/xkcm
+#  path: ^1.6.0
+
+dev_dependencies:
+  pedantic: ^1.7.0
+  test: ^1.5.0
